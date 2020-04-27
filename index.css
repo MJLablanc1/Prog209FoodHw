@@ -10,13 +10,17 @@
     border-color: black;
     border-style: solid;
     background-color: burlywood;
-    height: 200px;
+    height: 170px;
     width: 1000px;
 }
 
 #labelscon{
 display: inline-block;
 
+}
+
+label{
+    font-size: large;
 }
 
 #inputscon{
@@ -39,6 +43,10 @@ margin: 10px;
 display: inline-block;
 height: 20px;
 width: 680px;
+}
+
+#outputbox {
+    display: inline-block;
 }
 
 #totalcon{
