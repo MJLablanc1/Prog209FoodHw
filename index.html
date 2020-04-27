@@ -8,16 +8,40 @@
 </head>
 
 <body>
-<h2>strarter project</h2>
+    <h2>Calorie Tracker</h2>
+    <div id="progcon"> <!--Container to house whole program-->
 
-<button type="button" id="button1">Button</button>
-<div>
-    <br />
-    <input type="text" val="starting value" text="hello" id="textbox1" />
-    <br />
+<div id="inbox"> <!-- Houses only labels and inputs-->
+    <div id="labelscon">
+        <label>Food</label><br/>
+        <label>Quantity</label><br/>
+        <label>Calories</label>
+    </div>
+
+    <div id="inputscon">
+        <input type="text" id="food" name="food" /><br/>
+        <input type="text" id="quantity" name="quantity"/><br/>
+        <input type="text" id="calories" name="calories"/><br/>
+    </div>
 </div>
 
-<script src="index.js"></script>
+<div id="outputscon">
+    <div id="outputbox">
+    </div>
+</div>
+
+<div id = "btncon">
+    <button type="button" id="submit">Submit</button>
+</div>
+
+<div id="totalcon">
+    <div id="totalout">Total calories: 0</div>
+</div>
+
+</div>
+
+<script src="libaray_food.js"></script>
+<script src="main.js"></script>
 </body>
 
 </html>

@@ -1,5 +1,51 @@
  body {
+     height: auto;
+     width: auto;
     margin: 50px;
     font-family: Helvetica, sans-serif;
     font-size: 150%;
+}
+
+#progcon {
+    border-color: black;
+    border-style: solid;
+    background-color: burlywood;
+    height: 200px;
+    width: 1000px;
+}
+
+#labelscon{
+display: inline-block;
+
+}
+
+#inputscon{
+display: inline-block;
+margin: 10px;
+
+}
+
+#inbox{
+    display: inline-block;
+    width: 300px;
+}
+
+#btncon{
+    margin-left: 220px;
+    width: fit-content;
+}
+
+#outputscon{
+display: inline-block;
+height: 20px;
+width: 680px;
+}
+
+#totalcon{
+    margin: 10px;
+}
+
+#outent {
+    display: inline-block;
+    margin-left: 15px;
 }
